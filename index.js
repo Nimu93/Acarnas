@@ -2,7 +2,7 @@ const discord = require("discord.js");
 const ms = require("ms");
 const bot = new discord.Client();
 const prefix = "*"
-bot.login("NzE2NTk2NzAwMzgyNDk0Nzcx.Xt0dQA.CctnQHC-xref6cBm6BfwndAZ2_o")
+bot.login("process.env.TOKEN")
 
 bot.on("ready", () =>{
 bot.user.setActivity("recruter!", {type:"PLAYING", name:"test"})
