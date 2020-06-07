@@ -1,5 +1,4 @@
 const discord = require("discord.js");
-const ms = require("ms");
 const bot = new discord.Client();
 const prefix = "*"
 bot.login("process.env.TOKEN")
